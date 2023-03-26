@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="bg-white sticky z-10 top-0 shadow-md">
+      <section
+        class="sm:max-w-6xl mx-auto p-4 flex justify-between items-start"
+      >
+        <h1 class="font-semibold uppercase text-lg underline">
+          hotel <span class="text-yellow-500 underline">mania</span>
+        </h1>
+        <button
+          id="hamburger-btn"
+          class="sm:hidden focus:outline-none text-3xl cursor-pointer hover:text-amber-400 active:animate-spin hover:rotate-180"
+        >
+          &#9776;
+        </button>
+        <nav
+          class="hidden text-md space-x-5 uppercase sm:block"
+          aria-label="main"
+        >
+          <a href="#dreamHotel" class="hover:opacity-90 hover:underline">
+            home
+          </a>
+          <a href="#destination " class="hover:opacity-90 hover:underline">
+            service
+          </a>
+          <a href="#hotelmania" class="hover:opacity-90 hover:underline">
+            about us
+          </a>
+          <a href="#contact" class="hover:opacity-90 hover:underline">
+            contact us
+          </a>
+        </nav>
+        <button
+          class="hidden sm:block bg-yellow-500 text-white px-4 py-1 rounded-3xl hover:bg-yellow-400"
+        >
+          <a href="#contact" class="hover:opacity-90">Contact Us</a>
+        </button>
+      </section>
+      <section class="sm:hidden">
+        <nav
+          id="mobile-menu"
+          class="absolute flex-col animate-open-menu hidden py-8 capitalize text-yellow-600 cursor-pointer space-y-6 font-medium bg-amber-100 w-full text-left drop-shadow-lg"
+          aria-label="mobile"
+        >
+          <a
+            href="#dreamHotel"
+            class="hover:opacity-90 w-full text-center py-6 text-4xl"
+          >
+            home
+          </a>
+          <a
+            href="#destination "
+            class="hover:opacity-90 w-full text-center py-6 text-4xl"
+          >
+            service
+          </a>
+          <a
+            href="#hotelmania"
+            class="hover:opacity-90 w-full text-center py-6 text-4xl"
+          >
+            about us
+          </a>
+          <a
+            href="#contact"
+            class="hover:opacity-90 w-full text-center py-6 text-4xl"
+          >
+            contact us
+          </a>
+        </nav>
+      </section>
+    </header>
+
+    <main class="mx-auto">
+      <section
+        id="dreamHotel"
+        class="flex flex-col justify-center sm:flex-row p-6 items-center gap-8 mb-12 my-4"
+      >
+        <article class="sm:max-w-max">
+          <p class="text-center text-yellow-500 sm:text-left">
+            FIND YOUR DREAM HOTEL
+          </p>
+          <h1
+            class="max-w-md text-center text-4xl font-semibold mt-2 sm:text-left sm:text-4xl"
+          >
+            Your <span class="text-yellow-600">Dream</span> Hotel is Waiting for
+            You!
+          </h1>
+          <p
+            class="text-gray-600 max-w-md text-sm text-center mt-3 sm:text-left"
+          >
+            Find Hotels, rooms and Houses for your stay all around the globe and
+            make your trips more exciting....
+          </p>
+          <div
+            class="border-2 border-none bg-white shadow-sm rounded-3xl w-full py-2 mt-8 mx-auto sm:absolute sm:ml-14 sm:w-1/3 -z-30"
+          >
+            <div class="flex justify-around items-center">
+              <div class="space-x-2 items-center">
+                <ion-icon name="search-outline" class="text-lg"></ion-icon>
+                <small>Check In Date....</small>
+              </div>
+              <div class="border border-gray-600 h-5"></div>
+              <ul>
+                <li class="dropdown cursor-pointer items-center capitalize">
+                  london
+                  <ion-icon
+                    name="chevron-down-outline"
+                    class="ml-4 font-extrabold"
+                  ></ion-icon>
+                  <ul
+                    class="dropdown-menu space-y-3 cursor-pointer hidden w-[160px] h-[120px] p-4 z-20 shadow-md bg-transparent border border-white absolute"
+                  >
+                    <li>united kindom</li>
+                    <li>united kindom</li>
+                    <li>united kindom</li>
+                  </ul>
+                </li>
+              </ul>
+              <ion-icon
+                name="play-outline"
+                class="bg-yellow-500 text-2xl rounded-xl p-1 text-white"
+              ></ion-icon>
+            </div>
+          </div>
+          <p class="mt-4 font-semibold text-center sm:mt-24">
+            Top Locations: Manchester, London, Greenwich
+          </p>
+        </article>
+
+        <img src="./image/unsplash__j2yUlRNoJI.png" alt="" class="sm:w-2/4" />
+      </section>
+      <figcaption
+        class="flex space-x-4 mb-4 overflow-x-scroll justify-center items-center sm:space-x-16 sm:overflow-hidden"
+      >
+        <img src="./image/facebook.png" alt="" />
+        <img src="./image/Google.png" alt="" />
+        <img src="./image/Group 281.png" alt="" />
+        <img src="./image/Dropbox svg.png" alt="" />
+        <img src="./image/Group 256.png" alt="" />
+      </figcaption>
+      <section
+        id="destination"
+        class="sm:max-w-6xl mx-auto p-4 sm:mt-14 items-start"
+      >
+        <h2 class="text-2xl font-semibold text-center sm:text-4xl">
+          Our Popular <span class="text-amber-500">Destinations</span>
+        </h2>
+        <p class="text-center text-sm font-semibold py-3">
+          Our aim is to provide you with a top-quality tour experience.
+        </p>
+        <div
+          class="flex flex-col justify-center sm:flex-row items-center gap-4 my-6 sm:overflow-hidden"
+        >
+          <img
+            src="./image/unsplash_9PJ6Cmi--j4.png"
+            alt=""
+            class="hover:opacity-90"
+          />
+          <img
+            src="./image/unsplash_lh0n7Rttpjc.png"
+            alt=""
+            class="hover:opacity-90"
+          />
+          <img
+            src="./image/unsplash_dpN2jHAEiYY.png"
+            alt=""
+            class="hover:opacity-90"
+          />
+        </div>
+      </section>
+      <section id="hotelmania" class="mx-auto px-4 sm:px-24">
+        <h1 class="text-2xl font-semibold text-center mb-7 sm:text-4xl">
+          How <span class="text-amber-500">Hotelmania</span> works?
+        </h1>
+        <div
+          class="flex flex-col justify-center items-center gap-4 space-y-4 sm:space-y-0 sm:flex-row"
+        >
+          <div class="space-y-5">
+            <div class="mx-40 sm:mx-0">
+              <img src="./image/Group 245.png" alt="" class="ml-4" />
+              <img src="./image/Group 244.png" alt="" />
+            </div>
+
+            <div class="sm:mt-10 text-center sm:text-left">
+              <h2 class="font-semibold">Sign Up</h2>
+              <p class="text-sm px-12 sm:px-0">
+                Hassle-free setup and simple job management from start to finish
+              </p>
+            </div>
+          </div>
+          <img src="./image/path.png" alt="" class="hidden sm:block" />
+          <div class="space-y-5 sm:mt-32">
+            <div class="mx-40 sm:mx-0">
+              <img src="./image/Group 247.png" alt="" class="ml-4" />
+              <img src="./image/Group 246.png" alt="" />
+            </div>
+            <div class="sm:mt-16 text-center sm:text-left">
+              <h2 class="font-semibold">Search Hotels</h2>
+              <p class="text-sm px-12 sm:px-0">
+                Predictable work rates at $65/hour. Ideal for growing Shopify
+                stores
+              </p>
+            </div>
+          </div>
+          <img src="./image/path (1).png" alt="" class="hidden sm:block" />
+          <div class="space-y-5 sm:mt-40">
+            <div class="mx-40 sm:mx-0">
+              <img src="./image/Group 257.png" alt="" class="ml-4" />
+              <img src="./image/Group 248.png" alt="" />
+            </div>
+            <div class="text-center sm:text-left">
+              <h2 class="font-semibold">Start Travelling</h2>
+              <p class="text-sm px-12 sm:px-0">
+                No more flakey developers, Storetasker developers get things
+                done on time
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mx-auto py-12 my-11">
+        <header class="flex flex-col px-16 items-center sm:flex-row gap-8">
+          <h1
+            class="text-4xl font-semibold text-center sm:text-6xl sm:text-left"
+          >
+            Choose your <br />
+            <span class="text-amber-500">luxurious room</span>
+          </h1>
+          <p class="max-w-sm text-center text-sm sm:text-left">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiss praesentium voluptatum deleniti atque corrupti quos
+            dolores
+          </p>
+        </header>
+
+        <div class="relative overflow-hidden">
+          <div
+            class="flex flex-col space-y-3 my-10 sm:space-x-6 sm:ml-5 sm:flex-row"
+          >
+            <img src="./image/unsplash_emqnSQwQQDo.png" alt="" class="slide" />
+            <img src="./image/unsplash_b87_egH5mos.png" alt="" class="slide" />
+            <img src="./image/unsplash_fbG4S32ssd8.png" alt="" class="slide" />
+            <img src="./image/unsplash_PJNO2sLlbB8.png" alt="" class="slide" />
+          </div>
+
+          <div
+            class="absolute left-[10%] bottom-[30%] sm:left-[40%] sm:bottom-[25%] z-20"
+          >
+            <div class="bg-slate-600 text-white py-5 px-3 max-w-xs space-y-2">
+              <h2 class="text-sm font-bold">Our Luxury Room</h2>
+              <p class="max-w-xs text-xs">
+                Nor again is there anyone who loves or pursues or desires to
+                obtain pain of itself. becasue it is pain, but because
+                occasionally circumstances occcur in which toll and pain can
+                procure him some great pleasure
+              </p>
+              <ion-icon
+                name="play-outline"
+                class="bg-yellow-500 text-2xl rounded-xl p-1 text-white"
+              ></ion-icon>
+            </div>
+          </div>
+          <div class="flex justify-end space-x-8 mx-36">
+            <ion-icon name="caret-back-outline" id="arrow-left"></ion-icon>
+            <ion-icon name="caret-forward-outline" id="arrow-right"></ion-icon>
+          </div>
+        </div>
+      </section>
+      <section class="bg-blue-100 py-32 relative my-5 sm:mb-20">
+        <div class="mx-auto max-w-xl space-y-6 px-6 md:px-10">
+          <h2
+            class="text-center text-3xl sm:text-5xl font-semibold text-gray-700 text-opacity-90"
+          >
+            Get notified you can <br />
+            still join the waitlist
+          </h2>
+
+          <div
+            class="border border-none flex justify-between bg-white shadow-md rounded-3xl pl-3 h-[39px] w-[300px] sm:w-[370px]"
+          >
+            <p class="pt-1">email adress ....</p>
+            <div class="bg-amber-500 text-white border pt-1 px-4 rounded-3xl">
+              Start trial
+            </div>
+          </div>
+        </div>
+        <img
+          src="./image/Ellipse 101.png"
+          alt=""
+          class="absolute bottom-6 left-12 sm:top-32 sm:left-14"
+        />
+        <img
+          src="./image/Ellipse 102.png"
+          alt=""
+          class="absolute top-10 right-5 md:top-54 md:left-60"
+        />
+        <img
+          src="./image/Ellipse 103.png"
+          alt=""
+          class="absolute top-6 right-2 hidden sm:block"
+        />
+        <img
+          src="./image/Polygon 1.png"
+          alt=""
+          class="absolute bottom-10 left-40 hidden sm:block"
+        />
+        <img
+          src="./image/Polygon 2.png"
+          alt=""
+          class="absolute right-96 hidden sm:block"
+        />
+      </section>
+      <section class="my-8 sm:mb-32">
+        <article class="text-center space-y-3 py-8">
+          <h1 class="text-3xl font-medium sm:text-5xl">
+            What our happy <span class="text-amber-400">Client</span> say
+          </h1>
+          <p class="text-sm sm:text-md">
+            Things that make it the best place to start trading
+          </p>
+        </article>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-8">
+          <div class="space-y-4 text-center p-4 bg-white shadow-lg">
+            <img src="./image/Ellipse 104.png" alt="" class="px-20" />
+            <div class="flex space-x-5 px-20">
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+            </div>
+            <p class="max-w-sm">
+              Okay, I’ve found the joy of cooking. It’s the process which my
+              better half does it. There is ncere love than the adoration for
+              sustenance.
+            </p>
+          </div>
+          <div class="space-y-4 text-center p-4 bg-white shadow-lg">
+            <img src="./image/Ellipse 104.png" alt="" class="px-20" />
+            <div class="flex space-x-5 px-20">
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+            </div>
+            <p class="max-w-sm">
+              Okay, I’ve found the joy of cooking. It’s the process which my
+              better half does it. There is ncere love than the adoration for
+              sustenance.
+            </p>
+          </div>
+          <div class="space-y-4 text-center p-4 bg-white shadow-lg">
+            <img src="./image/Ellipse 104.png" alt="" class="px-20" />
+            <div class="flex space-x-5 px-20">
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+              <ion-icon name="star-sharp" class="text-amber-400"></ion-icon>
+            </div>
+            <p class="max-w-sm">
+              Okay, I’ve found the joy of cooking. It’s the process which my
+              better half does it. There is ncere love than the adoration for
+              sustenance.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-blue-100 mt-36">
+      <div class="relative">
+        <figure
+          id="contact"
+          class="bg-gray-800 w-[70%] sm:w-[40%] py-3 absolute bottom-[90%] right-[10%] sm:bottom-[80%] sm:right-[30%] z-20"
+        >
+          <h1 class="text-center text-white text-2xl">Contact Us</h1>
+          <div class="flex justify-around text-white mt-4">
+            <p>Mail Us: <br /><span> besnik@us.com </span></p>
+            <p>Phone: <br /><span> +0123415478 </span></p>
+          </div>
+        </figure>
+        <div
+          class="flex flex-col justify-center items-center pt-28 py-14 gap-4 sm:gap-24 sm:flex-row"
+        >
+          <div>
+            <h2 class="font-semibold">HOTELMANIA</h2>
+            <p class="w-36">
+              Build your site for free and take as long as you need.
+            </p>
+          </div>
+          <div>
+            <h2 class="font-semibold">Home</h2>
+            <ul>
+              <li>Appirance</li>
+              <li>Appirance</li>
+              <li>Appirance</li>
+              <li>sell</li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="font-semibold">Company</h2>
+            <ul>
+              <li>FAQ</li>
+              <li>About us</li>
+              <li>Spoke</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold">Help</h3>
+            <ul>
+              <li>How it work?</li>
+              <li>Program</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
